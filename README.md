@@ -1,40 +1,78 @@
-# 🌦️ Weather App
+# 🌤️ Weather App
 
-A simple, clean, and responsive **Weather App** that displays real-time weather information for any city using the **OpenWeatherMap API** (or your favorite weather source).
-
-## 🚀 Features
-- Search weather by city name
-- Shows temperature, humidity, and wind-speed
-- Beautiful weather icons for different weather condition
-- Simple & minimalistic design (pure HTML + CSS)
-
-## 🛠️ Technologies Used
-- **HTML**
-- **CSS**
-
-## 📂 Folder Structure
-Weather App/
-├── images/ → weather icons or background images
-├── index.html → main HTML file
-├── style.css → styling file
-└── README.md 
-
-## 📸 Preview
-![App Screenshot](./images/demo.png)
-
-## 💡 How to Use
-1. Download or clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/weather-app.git
-2. Open index.html in your browser.
-3. Search for a city — boom! instant weather update ☀️🌧️
-
-🌐 Live Demo
-👉 [View on GitHub Pages](https://premkumar7516.github.io/weather-app/)
-
-
-🧑‍💻 Author
-**Prem Kumar**
-✨ Feel free to fork this repo and improve it — maybe add JavaScript to fetch live data next?
+A simple weather forecasting web application built with **HTML, CSS, and JavaScript**, powered by the **OpenWeatherMap API**.  
+The API key is secured in a **Node.js backend** using a `.env` file.
 
 ---
+
+## 🚀 Features
+
+- Search for any city worldwide 🌍  
+- Displays:
+  - Temperature 🌡️
+  - Humidity 💧
+  - Wind speed 🌬️
+  - Weather condition icons ☁️🌞🌧️  
+- Error handling for invalid city names or server issues  
+- Fully responsive and clean UI  
+
+---
+
+## 🖼️ Screenshots
+
+![App Screenshot](./images/demo.png)
+
+---
+
+## 📂 Project Structure
+
+weather-app/
+├── images/ ← Weather icons and screenshots
+├── node_modules
+├── .env ← API key (not committed)
+├── .gitignore
+├── index.html ← Frontend HTML
+├── package-lock.json
+├── package.json
+├── README.md
+├── server.js ← Node.js backend
+└── style.css ← CSS styling
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/PremKumar7516/weather-app.git
+cd weather-app
+```
+
+### 2. Install dependencies
+```bash
+npm install express node-fetch dotenv cors
+```
+
+### 3. Create a .env file
+```bash
+WEATHER_API_KEY=your_actual_openweathermap_api_key_here
+```
+
+### 4. Start the backend
+```bash
+node server.js
+```
+Backend runs at: http://localhost:3000
+
+
+### 5. Open the frontend
+- Open index.html in your browser
+- Enter a city name and click search
+- The frontend calls your backend to fetch weather data
+
+---
+
+🧑‍💻 Author
+
+Prem Kumar (PremKumar7516)
+💻 Computer Science Student | 🌦️ Frontend Learner

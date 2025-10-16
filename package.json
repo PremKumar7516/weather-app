@@ -1,0 +1,26 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A simple, clean, and responsive **Weather App** that displays real-time weather information for any city using the **OpenWeatherMap API** (or your favorite weather source).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PremKumar7516/weather-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PremKumar7516/weather-app/issues"
+  },
+  "homepage": "https://github.com/PremKumar7516/weather-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
