@@ -1,0 +1,10 @@
+# Ignore OS or editor junk
+.DS_Store
+.vscode/
+.idea/
+
+# Ignore potential secrets
+.env
+
+# Ignore backups
+*.bak
