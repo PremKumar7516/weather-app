@@ -30,11 +30,11 @@ Weather App/
 3. Search for a city — boom! instant weather update ☀️🌧️
 
 🌐 Live Demo
-👉 View on GitHub Pages
+👉 [View on GitHub Pages](https://premkumar7516.github.io/weather-app/)
 
 
 🧑‍💻 Author
-<Prem Kumar>
+**Prem Kumar**
 ✨ Feel free to fork this repo and improve it — maybe add JavaScript to fetch live data next?
 
 ---
